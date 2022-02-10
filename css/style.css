@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    transition: all 2s ease 0s;
 }
 .heander{
     width: 100%;
@@ -31,23 +32,20 @@ a{
     font-family:"raleway";
     src: url(../fonts/Raleway-Regular.ttf);
 }
-@font-face{
-    font-family: "fontawesome";
-    src: url(/fonts/fontawesome-webfont.ttf);
-}
+
 span{
-    margin-right: 70px;
     color: #2e2d2d;
     font-family: "raleway";
 }
 .content{
     background: url(../img/bg.png);
     height: 732px;
+    background-position: center;
     margin-top: 25px;
     display: block;
-    position: absolute;
+    position: relative;
     font-family: "raleway";
-
+    background-repeat: no-repeat;
 }
 .text{
     background: url(../img/glow.png);
@@ -59,7 +57,7 @@ span{
     background-repeat: no-repeat;
 }
 .text p{
-    width: 572px;
+    width: 40%;
     font-weight: 100;
     color: #ffffffa6;
 }
@@ -81,7 +79,20 @@ span{
 .text h1{
     font-weight: 1000;
 }
-#number::before{
-    /* display: block; */
-    content:"<i class="fa-solid fa-square-phone"></i>";
+.number{
+    padding: 0;
+}
+#email{
+    padding: 0;
+}
+#bottom:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.801);
+}
+.footer{
+    margin-top: 500px;
+    position: relative;
+}
+.hide-link{
+    display: none;
 }
