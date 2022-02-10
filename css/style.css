@@ -31,6 +31,10 @@ a{
     font-family:"raleway";
     src: url(/fonts/Raleway-Regular.ttf);
 }
+@font-face{
+    font-family: "fontawesome";
+    src: url(/fonts/fontawesome-webfont.ttf);
+}
 span{
     margin-right: 70px;
     color: #2e2d2d;
@@ -76,4 +80,8 @@ span{
 }
 .text h1{
     font-weight: 1000;
+}
+#number::before{
+    /* display: block; */
+    content:"<i class="fa-solid fa-square-phone"></i>";
 }
