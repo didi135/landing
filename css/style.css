@@ -17,7 +17,7 @@
 }
 @font-face{
     font-family:"proximanova";
-    src: url(/fonts/proximanova_extrabold.otf);    
+    src: url(../fonts/proximanova_extrabold.otf);    
 }
 a{
     margin-right: 33px;
@@ -29,7 +29,7 @@ a{
 }
 @font-face{
     font-family:"raleway";
-    src: url(/fonts/Raleway-Regular.ttf);
+    src: url(../fonts/Raleway-Regular.ttf);
 }
 @font-face{
     font-family: "fontawesome";
@@ -41,7 +41,7 @@ span{
     font-family: "raleway";
 }
 .content{
-    background: url(/img/bg\ копия.png);
+    background: url(../img/bg.png);
     height: 732px;
     margin-top: 25px;
     display: block;
@@ -50,7 +50,7 @@ span{
 
 }
 .text{
-    background: url(/img/glow.png);
+    background: url(../img/glow.png);
     padding-top: 182px;
     color: rgb(255, 249, 249);
     height: 732px;
